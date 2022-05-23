@@ -8,7 +8,7 @@ const Home = () => {
   useEffect(() => {
     storeUtility();
     getCurrency();
-    axios.get('https://jsonplaceholder.typicode.com/todos/1').then((res) => {
+    axios.get('https://jsonplaceholder.typicode.com/todos/2').then((res) => {
       setData(res.data.title);
     });
   }, []);
