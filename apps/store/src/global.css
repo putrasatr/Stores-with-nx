@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+@layer base {
+    html,
+    body {
+      font-size: 14px;
+    }
+    body {
+      @apply text-red-400 scroll-smooth bg-[#F3F3F3];
+      font-family: "Maven Pro", sans-serif;
+    }
+    body,
+    html,
+    #root {
+      height: 100%;
+    }
+  }

@@ -14,7 +14,21 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@stores/api": ["libs/api/src/index.ts"],
+      "@stores/blog/hightlight-card": [
+        "libs/blog/hightlight-card/src/index.ts"
+      ],
+      "@stores/blog/input": ["libs/blog/input/src/index.ts"],
+      "@stores/blog/jumbotron": ["libs/blog/jumbotron/src/index.ts"],
+      "@stores/blog/layout": ["libs/blog/layout/src/index.ts"],
+      "@stores/blog/tags": ["libs/blog/tags/src/index.ts"],
+      "@stores/footer": ["libs/footer/index.ts"],
+      "@stores/hooks": ["libs/hooks/src/index.ts"],
+      "@stores/shared-ui": ["libs/shared-ui/src/index.ts"],
+      "@stores/store/ui-shared": ["libs/store/ui-shared/src/index.ts"],
+      "@stores/store/utility": ["libs/store/utility/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

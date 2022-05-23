@@ -2,7 +2,14 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "api": "libs/api",
+    "e-commerce": "apps/e-commerce",
+    "e-commerce-e2e": "apps/e-commerce-e2e",
+    "hooks": "libs/hooks",
+    "shared-ui": "libs/shared-ui",
     "store": "apps/store",
-    "store-e2e": "apps/store-e2e"
+    "store-e2e": "apps/store-e2e",
+    "store-ui-shared": "libs/store/ui-shared",
+    "store-utility": "libs/store/utility"
   }
 }
