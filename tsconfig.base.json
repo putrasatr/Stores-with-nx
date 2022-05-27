@@ -25,6 +25,7 @@
       "@stores/blog/tags": ["libs/blog/tags/src/index.ts"],
       "@stores/footer": ["libs/footer/index.ts"],
       "@stores/hooks": ["libs/hooks/src/index.ts"],
+      "@stores/shared-icon": ["libs/shared-icon/src/index.ts"],
       "@stores/shared-ui": ["libs/shared-ui/src/index.ts"],
       "@stores/store/ui-shared": ["libs/store/ui-shared/src/index.ts"],
       "@stores/store/utility": ["libs/store/utility/src/index.ts"]

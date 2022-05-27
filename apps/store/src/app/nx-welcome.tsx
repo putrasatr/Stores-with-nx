@@ -5,6 +5,8 @@
  Delete this file and get started with your project!
  * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  */
+import { ButtonIcon } from '@stores/shared-ui';
+
 export function NxWelcome({ title }: { title: string }) {
   return (
     <>
@@ -813,6 +815,7 @@ export function NxWelcome({ title }: { title: string }) {
           </p>
         </div>
       </div>
+      <ButtonIcon text="Halo" leftIcon="delete" color="white" colorScheme="teal"/>
     </>
   );
 }

@@ -9,6 +9,9 @@ export function App() {
       <div className="w-[100px] h-[100px] text-red-500 bg-slate-600">Fort</div>
       <Routers />
       <div />
+      <video>
+        <source></source>
+      </video>
     </ChakraProvider>
   );
 }

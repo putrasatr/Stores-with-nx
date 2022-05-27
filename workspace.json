@@ -4,12 +4,11 @@
   "projects": {
     "api": "libs/api",
     "e-commerce": "apps/e-commerce",
-    "e-commerce-e2e": "apps/e-commerce-e2e",
+    "films-ui": "apps/films-ui",
+    "films-ui-e2e": "apps/films-ui-e2e",
     "hooks": "libs/hooks",
+    "shared-icon": "libs/shared-icon",
     "shared-ui": "libs/shared-ui",
-    "store": "apps/store",
-    "store-e2e": "apps/store-e2e",
-    "store-ui-shared": "libs/store/ui-shared",
-    "store-utility": "libs/store/utility"
+    "store": "apps/store"
   }
 }
