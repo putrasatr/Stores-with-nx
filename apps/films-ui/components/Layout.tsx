@@ -1,8 +1,15 @@
 import Head from 'next/head';
 import Nav from './Nav';
 import { UserProvider } from '../lib/authContext';
+import { NextPage } from 'next';
 
-const Layout = ({ user, loading = false, children }) => (
+interface Props {
+  user?: any;
+  loading?: boolean;
+  children?: JSX.Element;
+}
+
+const Layout: NextPage<Props> = ({ user, loading = false, children }) => (
   <UserProvider value={{ user, loading }}>
     <Head>
       <title>Film Database</title>

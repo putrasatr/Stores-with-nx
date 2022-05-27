@@ -1,0 +1,62 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/gallery/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nxext/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "frameworkConfigFile": "@nxext/svelte/plugins/vite",
+        "outputPath": "dist/apps/gallery",
+        "assets": [
+          {
+            "glob": "/*",
+            "input": "./public/**",
+            "output": "./"
+          }
+        ],
+        "tsConfig": "apps/gallery/tsconfig.app.json"
+      },
+      "configurations": {
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nxext/vite:dev",
+      "options": {
+        "frameworkConfigFile": "@nxext/svelte/plugins/vite",
+        "outputPath": "dist/apps/gallery",
+        "assets": [
+          {
+            "glob": "/*",
+            "input": "./public/**",
+            "output": "./"
+          }
+        ],
+        "tsConfig": "apps/gallery/tsconfig.app.json"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/gallery/**/*.{ts,svelte,spec.ts}"]
+      }
+    },
+    "check": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "svelte-check",
+        "cwd": "apps/gallery"
+      }
+    },
+    "test": {
+      "executor": "@nxext/vitest:vitest",
+      "options": {
+        "command": "run"
+      }
+    }
+  }
+}

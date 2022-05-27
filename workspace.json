@@ -6,6 +6,8 @@
     "e-commerce": "apps/e-commerce",
     "films-ui": "apps/films-ui",
     "films-ui-e2e": "apps/films-ui-e2e",
+    "gallery": "apps/gallery",
+    "gallery-e2e": "apps/gallery-e2e",
     "hooks": "libs/hooks",
     "shared-icon": "libs/shared-icon",
     "shared-ui": "libs/shared-ui",
