@@ -1,9 +1,10 @@
 import App from './App.svelte';
+import LoginSvelte from './Login.svelte';
 
-const app = new App({
+const app = new LoginSvelte({
   target: document.body,
   props: {
-    name: 'gallery',
+    name: 'Disana',
   },
 });
 
