@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Tailwind from './Tailwind.svelte';
   import './app.css';
   export let name: string;
   export const onSubmit = () => {
@@ -12,8 +13,9 @@
   };
 </script>
 
+<Tailwind />
 <main>
-  <h1>Create Accounts {name}!</h1>
+  <h1 class="text-red-100">Create Accounts {name}!</h1>
   <form action="" on:submit|preventDefault={onSubmit}>
     <input
       placeholder="Masukan Username"

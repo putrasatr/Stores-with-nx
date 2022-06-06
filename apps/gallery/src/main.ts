@@ -1,4 +1,4 @@
-import App from './App.svelte';
+import './app.css';
 import LoginSvelte from './Login.svelte';
 
 const app = new LoginSvelte({
