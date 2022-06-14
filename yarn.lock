@@ -3219,6 +3219,13 @@
   "resolved" "https://registry.npmjs.org/@tsconfig/svelte/-/svelte-3.0.0.tgz"
   "version" "3.0.0"
 
+"@types/alpinejs@^3.7.0":
+  "integrity" "sha512-iMvJwgJHYFUlMOixKF68BmMQZbnxVA/erh1blbfhY8Z6u6oleEJViz8bye58roLOp8jyBNOsXtobyq7zR/7A2g=="
+  "resolved" "https://registry.npmjs.org/@types/alpinejs/-/alpinejs-3.7.0.tgz"
+  "version" "3.7.0"
+  dependencies:
+    "@vue/reactivity" "^3.2.26"
+
 "@types/aria-query@^4.2.0":
   "integrity" "sha512-HnYpAE1Y6kRyKM/XkEuiRQhTHvkzMBurTHnpFLYLBGPIylZNPs9jJcuOOYWxPLJCSEtmZT0Y8rHDokKN7rRTig=="
   "resolved" "https://registry.npmjs.org/@types/aria-query/-/aria-query-4.2.2.tgz"
@@ -3827,6 +3834,30 @@
     "@typescript-eslint/types" "5.26.0"
     "eslint-visitor-keys" "^3.3.0"
 
+"@vue/reactivity@^3.2.26":
+  "integrity" "sha512-c2qvopo0crh9A4GXi2/2kfGYMxsJW4tVILrqRPydVGZHhq0fnzy6qmclWOhBFckEhmyxmpHpdJtIRYGeKcuhnA=="
+  "resolved" "https://registry.npmjs.org/@vue/reactivity/-/reactivity-3.2.36.tgz"
+  "version" "3.2.36"
+  dependencies:
+    "@vue/shared" "3.2.36"
+
+"@vue/reactivity@~3.1.1":
+  "integrity" "sha512-1tdfLmNjWG6t/CsPldh+foumYFo3cpyCHgBYQ34ylaMsJ+SNHQ1kApMIa8jN+i593zQuaw3AdWH0nJTARzCFhg=="
+  "resolved" "https://registry.npmjs.org/@vue/reactivity/-/reactivity-3.1.5.tgz"
+  "version" "3.1.5"
+  dependencies:
+    "@vue/shared" "3.1.5"
+
+"@vue/shared@3.1.5":
+  "integrity" "sha512-oJ4F3TnvpXaQwZJNF3ZK+kLPHKarDmJjJ6jyzVNDKH9md1dptjC7lWR//jrGuLdek/U6iltWxqAnYOu8gCiOvA=="
+  "resolved" "https://registry.npmjs.org/@vue/shared/-/shared-3.1.5.tgz"
+  "version" "3.1.5"
+
+"@vue/shared@3.2.36":
+  "integrity" "sha512-JtB41wXl7Au3+Nl3gD16Cfpj7k/6aCroZ6BbOiCMFCMvrOpkg/qQUXTso2XowaNqBbnkuGHurLAqkLBxNGc1hQ=="
+  "resolved" "https://registry.npmjs.org/@vue/shared/-/shared-3.2.36.tgz"
+  "version" "3.2.36"
+
 "@webassemblyjs/ast@1.11.1":
   "integrity" "sha512-ukBh14qFLjxTQNTXocdyksN5QdM28S1CxHt2rdskFyL+xFV7VremuBLVbmCePj+URalXBENx/9Lm7lnhihtCSw=="
   "resolved" "https://registry.npmjs.org/@webassemblyjs/ast/-/ast-1.11.1.tgz"
@@ -4094,6 +4125,13 @@
     "json-schema-traverse" "^1.0.0"
     "require-from-string" "^2.0.2"
     "uri-js" "^4.2.2"
+
+"alpinejs@^3.10.2":
+  "integrity" "sha512-P6DTX78J94FgsskS3eS23s26hfb0NWQZUidBnkUK7fId1x64/kLm5E79lL3HNItUmHDCKOHvfP8EAcuCVab89w=="
+  "resolved" "https://registry.npmjs.org/alpinejs/-/alpinejs-3.10.2.tgz"
+  "version" "3.10.2"
+  dependencies:
+    "@vue/reactivity" "~3.1.1"
 
 "ansi-colors@^4.1.1":
   "integrity" "sha512-/6w/C21Pm1A7aZitlI5Ni/2J6FFQN8i1Cvz3kHABAAbw93v/NlvKdVOqz7CCWz/3iv/JplRSEEZ83XION15ovw=="
